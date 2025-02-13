@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "name": "Millésime Bio",
+    "date": "27-29 janvier 2025",
+    "location": "Parc des Expositions",
+    "city_name": "Montpellier",
+    "official_site": "https://www.millesime-bio.com"
+  },
+  {
+    "id": 2,
+    "name": "Salon Vinidôme",
+    "date": "31 janvier - 3 février 2025",
+    "location": "Grande Halle d'Auvergne",
+    "city_name": "Clermont-Ferrand",
+    "official_site": "https://www.salon-vinifrance.fr/les-salons/clermont-ferrand/"
+  },
+  {
+    "id": 3,
+    "name": "Salon des Vins de Loire",
+    "date": "3-4 février 2025",
+    "location": "Parc des Expositions",
+    "city_name": "Angers",
+    "official_site": "https://salondesvinsdeloire.com/"
+  },
+  {
+    "id": 4,
+    "name": "Wine Paris / Vinexpo",
+    "date": "10-12 février 2025",
+    "location": "Paris Porte de Versailles",
+    "city_name": "Paris",
+    "official_site": "https://wineparis.com/newfront"
+  },
+  {
+    "id": 5,
+    "name": "Salon des Vins de Limoges",
+    "date": "14-16 février 2025",
+    "location": "Parc des Expositions",
+    "city_name": "Limoges",
+    "official_site": "https://www.salon-vinifrance.fr/les-salons/limoges/"
+  },
+  {
+    "id": 6,
+    "name": "Salon des Vins Bio de Nantes",
+    "date": "28 février 2025",
+    "location": "Parc des Expositions",
+    "city_name": "Nantes",
+    "official_site": "https://www.club-vignerons-laureats.com/salon-des-vins-nantes/#:~:text=Les%2028%20f%C3%A9vrier%2C%201%20%26%202,du%20Ch%C3%A2teau%20de%20la%20Poterie."
+  },
+  {
+    "id": 7,
+    "name": "Salon Vins et Terroirs Toulouse",
+    "date": "7-9 mars 2025",
+    "location": "Parc des Expositions MEETT",
+    "city_name": "Toulouse",
+    "official_site": "https://www.salon-vins-terroirs-toulouse.com"
+  },
+  {
+    "id": 8,
+    "name": "Salon des Vins des Vigerons Indépendants de Lyon",
+    "date": "07-09 mars 2025",
+    "location": "Eurexpo",
+    "city_name": "Lyon",
+    "official_site": "https://www.vigneron-independant.com/19%C3%A8me-salon-des-vins-des-vignerons-ind%C3%A9pendants-lyon-eurexpo"
+  },
+  {
+    "id": 9,
+    "name": "Salon de la Gastronomie et des Vins",
+    "date": "21-23 mars 2025",
+    "location": "Parc des Expositions",
+    "city_name": "Caen",
+    "official_site": "https://www.abcsalles.com/agenda/salon-vins-gastronomie-caen"
+  },
+  {
+    "id": 10,
+    "name": "Somm'Up",
+    "date": "30-31 mars 2025",
+    "location": "Palais de la Méditerranée",
+    "city_name": "Nice",
+    "official_site": "https://www.salon-vin-nice.com"
+  },
+  {
+    "id": 11,
+    "name": "Les Printemps de Châteauneuf-du-Pape",
+    "date": "4-6 avril 2025",
+    "location": "Salle Dufays",
+    "city_name": "Châteauneuf-du-Pape",
+    "official_site": "https://www.lesprintempsdechateauneufdupape.fr"
+  },
+  {
+    "id": 12,
+    "name": "SAVIM de printemps",
+    "date": "21-24 mars 2025",
+    "location": "Parc Chanot",
+    "city_name": "Marseille",
+    "official_site": "https://www.salons-savim.fr"
+  },
+  {
+    "id": 13,
+    "name": "Salon Vins de Macon",
+    "date": "25-27 avril 2025",
+    "location": "Parc des Expositions",
+    "city_name": "Mâcon",
+    "official_site": "https://www.salon-des-vins.fr/"
+  },
+  {
+    "id": 14,
+    "name": "Salon de la Gastronomie des Vins et des Spiritueux",
+    "date": "8-11 mai 2025",
+    "location": "Place du Bras d'Or",
+    "city_name": "Pont-l'Évêque",
+    "official_site": "https://www.calvados-tourisme.com/evenement/41eme-fete-du-fromage-salon-de-la-gastronomie-des-vins-et-spiritueux/"
+  },
+  {
+    "id": 15,
+    "name": "Foire aux Vins d'Alsace",
+    "date": "25 février - 3 aout 2025",
+    "location": "Parc Expo de Colmar",
+    "city_name": "Strasbourg",
+    "official_site": "https://www.foire-colmar.com/fr/"
+  },
+  {
+    "id": 16,
+    "name": "Salon Viti Loire",
+    "date": "30 mai - 1 juin 2025",
+    "location": "Tours",
+    "city_name": "Tours",
+    "official_site": "https://www.tours.fr/"
+  },
+  {
+    "id": 17,
+    "name": "Bacchus",
+    "date": "28-30 mars 2025",
+    "location": "place d’Armes et ville de Toulon",
+    "city_name": "Toulon",
+    "official_site": "https://www.bacchus-fete.com/"
+  },
+  {
+    "id": 18,
+    "name": "Salon des Vins de Sancerre",
+    "date": "mai 2025",
+    "location": "Maison des Sancerre",
+    "city_name": "Sancerre",
+    "official_site": "https://www.vins-centre-loire.com/fr/foire-aux-vins-de-sancerre"
+  },
+  {
+    "id": 19,
+    "name": "Bordeaux fête le vin",
+    "date": "19-22 juin 2025",
+    "location": "Quais de la Garonne",
+    "city_name": "Bordeaux",
+    "official_site": "https://www.bordeaux-fete-le-vin.com/billetterie.html?o=Agenda-BFV"
+  },
+  {
+    "id": 20,
+    "name": "Salon Vinexpo Bordeaux",
+    "date": "16-18 juin 2025",
+    "location": "Sur les quais de Bordeaux",
+    "city_name": "Bordeaux",
+    "official_site": "https://www.vinexpobordeaux.com"
+  },
+  {
+    "id": 21,
+    "name": "Salon des Vins du Jura",
+    "date": "23-24 mars 2025",
+    "location": "Grand Gymnase",
+    "city_name": "Arbois",
+    "official_site": "https://lenezdanslevert.com/"
+  },
+  {
+    "id": 22,
+    "name": "Salon des Vins Artisanaux et Naturels",
+    "date": "21 mars 2025",
+    "location": "Hotel Amour Plage",
+    "city_name": "Nice, France",
+    "official_site": "https://www.vinsdazur.com/"
+  },
+  {
+    "id": 23,
+    "name": "Salon des Vins d'Automne de Colmar",
+    "date": "3 août 2025",
+    "location": "Parc Expo",
+    "city_name": "Colmar",
+    "official_site": "https://www.foire-colmar.com/fr/"
+  },
+  {
+    "id": 24,
+    "name": "Bacchus",
+    "date": "5-7 juin 2025",
+    "location": "Parc de Valmy",
+    "city_name": "Argeles-sur-Mer",
+    "official_site": "https://festival-bacchus.fr/#:~:text=Rendez%2Dvous%20le%205%2C%206%20et%207%20juin%202025%20!"
+  },
+  {
+    "id": 25,
+    "name": "Fête des Grands Vins de Bourgogne",
+    "date": "14-15 novembre 2026",
+    "location": "Palais des Congrès",
+    "city_name": "Beaune",
+    "official_site": "https://www.fetedesgrandsvins.fr/"
+  },
+  {
+    "id": 26,
+    "name": "Salon de Paris-Vincennes",
+    "date": "5-8 septembre 2025",
+    "location": "Vincennes Hippodrome de Paris",
+    "city_name": "Paris",
+    "official_site": "https://www.mer-et-vigne.fr/salons/salon-dautomne-paris-vincennes"
+  },
+  {
+    "id": 27,
+    "name": "Vin, Saveurs et Plantes d'Automne",
+    "date": "18-19 octobre 2025",
+    "location": "Parc Floral",
+    "city_name": "Apremont-sur-Allier",
+    "official_site": "https://www.apremont-sur-allier.com/19-20-octobre-2004-vin-saveurs-et-plantes-dautomne/#:~:text=Agenda-,18%20%26%2019%20Octobre%202025,et%20des%20produits%20du%20terroir."
+  },
+  {
+    "id": 28,
+    "name": "Salon du Chocolat & Vins",
+    "date": "31 octobre - 02 novembre 2025",
+    "location": "L'Autre Scène ",
+    "city_name": "Vedène (Avignon)",
+    "official_site": "https://www.grandavignon-destinations.fr/agenda/salon-du-chocolat-vins/"
+  },
+  {
+    "id": 29,
+    "name": "Salon des Vins de Chablis",
+    "date": "25-26 octobre 2025",
+    "location": "Chablis",
+    "city_name": "Chablis",
+    "official_site": "https://www.chablis.fr/decouvrez/des-traditions-bourguignonnes/la-fete-des-vins/la-fete-des-vins,1242,6986.html"
+  },
+  {
+    "id": 30,
+    "name": "Aux Vignobles! Vin est Gastronomie de nos Régions",
+    "date": "31 janvier - 3 févrirer 2025",
+    "location": "Halle D'Iraty",
+    "city_name": "Biarritz",
+    "official_site": "https://www.auxvignobles.fr/biarritz/"
+  },
+  {
+    "id": 31,
+    "name": "Salon des Vins des Vignerons Indépendants de Bordeaux",
+    "date": "7 mars 2025",
+    "location": "Parc des Expositions",
+    "city_name": "Bordeaux",
+    "official_site": "https://www.jds.fr/bordeaux/foires-et-salons/foires/salon-des-vins-des-vignerons-independants-de-bordeaux-176761_A"
+  },
+  {
+    "id": 32,
+    "name": "Salon des Vins Indépendants",
+    "date": "21-23 mars 2025",
+    "location": "Espace Champerret",
+    "city_name": "Paris",
+    "official_site": "https://www.vigneron-independant.com/32%C3%A8me-salon-des-vins-des-vignerons-ind%C3%A9pendants-paris-champerret"
+  },
+  {
+    "id": 33,
+    "name": "Salon Saveurs et Terroirs",
+    "date": "28-30 novembre 2025",
+    "location": "Parc des Expos",
+    "city_name": "Chambéry",
+    "official_site": "https://www.saveursetterroirs.com/"
+  },
+  {
+    "id": 34,
+    "name": "TERRAVINI",
+    "date": "24-26 octobre 2025",
+    "location": "Palais Nikaïa",
+    "city_name": "Nice",
+    "official_site": "https://salons-terravini.fr/"
+  },
+  {
+    "id": 35,
+    "name": "SAVIM d'automne",
+    "date": "21-24 novembre 2025",
+    "location": "Parc Chanot",
+    "city_name": "Marseille",
+    "official_site": "https://www.salons-savim.fr/"
+  },
+  {
+    "id": 36,
+    "name": "Salon des Vins des Vignerons Indépendants Paris",
+    "date": "28 novembre - 1 décembre 2025",
+    "location": "Parc des Expositions Porte de Versailles",
+    "city_name": "Paris",
+    "official_site": "https://www.vigneron-independant.com"
+  },
+  {
+    "id": 37,
+    "name": "Le Grand Tasting",
+    "date": "28-29 novembre 2025",
+    "location": "Carrousel du Louvre, Paris, France",
+    "city_name": "Paris",
+    "official_site": "https://www.grandtasting.com"
+  },
+  {
+    "id": 38,
+    "name": "Salon des Vins et Gourmandises",
+    "date": "28 février 2025",
+    "location": "Complexe sportif Jean Claverie à Laigné en Belin",
+    "city_name": "Laigne-Saint-Gervais",
+    "official_site": "https://clubdesloisirslaigne.fr/"
+  },
+  {
+    "id": 39,
+    "name": "Salon d'Annecy",
+    "date": "17-19 octobre 2025",
+    "location": "Route de Thône",
+    "city_name": "Annecy",
+    "official_site": "https://www.mer-et-vigne.fr/salons/salon-annecy-le-vieux-espace-rencontre"
+  }
+]
