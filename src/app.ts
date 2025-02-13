@@ -73,20 +73,20 @@ app.use(router);
 // - Serving client static files from the server, which is useful when building a single-page application with React.
 // - Redirecting unhandled requests (e.g., all requests not matching a defined API route) to the client's index.html. This allows the client to handle client-side routing.
 
-import fs from "node:fs";
+/* import fs from "node:fs";
 import path from "node:path";
 
 // Serve server resources
 
-const publicFolderPath = path.join(__dirname, "../../server/public");
+/* const publicFolderPath = path.join(__dirname, "../../server/public"); */
 
 if (fs.existsSync(publicFolderPath)) {
 	app.use(express.static(publicFolderPath));
 }
-
+ */
 // Serve client resources
 
-const clientBuildPath = path.join(__dirname, "../../client/dist");
+/* const clientBuildPath = path.join(__dirname, "../../client/dist");
 
 if (fs.existsSync(clientBuildPath)) {
 	app.use(express.static(clientBuildPath));
@@ -97,12 +97,12 @@ if (fs.existsSync(clientBuildPath)) {
 		res.sendFile("index.html", { root: clientBuildPath });
 	});
 }
-
+ */
 /* ************************************************************************* */
 
 // Middleware for Error Logging
 // Important: Error-handling middleware should be defined last, after other app.use() and routes calls.
-
+/* 
 import type { ErrorRequestHandler } from "express";
 
 // Define a middleware function to log errors
@@ -113,11 +113,12 @@ const logErrors: ErrorRequestHandler = (err, req, res, next) => {
 
 	// Pass the error to the next middleware in the stack
 	next(err);
-};
+}; */
 
 // Mount the logErrors middleware globally
-app.use(logErrors);
+/* app.use(logErrors); */
 
 /* ************************************************************************* */
+
 
 export default app;
