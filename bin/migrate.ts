@@ -1,4 +1,4 @@
-// Load environment variables from .env file
+/* // Load environment variables from .env file
 import "dotenv/config";
 
 import fs from "node:fs";
@@ -51,3 +51,4 @@ const migrate = async () => {
 
 // Run the migration function
 migrate();
+ */
