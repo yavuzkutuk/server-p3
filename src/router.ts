@@ -6,16 +6,17 @@ const router = express.Router();
 // Define Your API Routes Here
 /* ************************************************************************* */
 
-import answerActions from "./modules/answers/answersActions";
+/* import answerActions from "./modules/answers/answersActions";
 // Define item-related routes
 import tastingActions from "./modules/degustation/tastingActions";
 import itemActions from "./modules/item/itemActions";
 import quizzActions from "./modules/quizz/quizzActions";
 import suggestionActions from "./modules/suggestion/suggestionActions";
 import userActions from "./modules/users/usersActions";
-import wineActions from "./modules/vin/wineActions";
+import wineActions from "./modules/vin/wineActions"; */
 
-router.get("/api/items", itemActions.browse);
+router.get("/api", (req, res) => res.send("test"));
+/* router.get("/api/items", itemActions.browse);
 router.get("/api/items/:id", itemActions.read);
 router.post("/api/items", itemActions.add);
 
@@ -52,7 +53,7 @@ router.get("/api/suggestion", suggestionActions.browse);
 router.get("/api/suggestion/:id", suggestionActions.read);
 router.post("/api/suggestion", suggestionActions.add);
 router.put("/api/suggestion/:id", suggestionActions.edit);
-router.delete("/api/suggestion/:id", suggestionActions.destroy);
+router.delete("/api/suggestion/:id", suggestionActions.destroy); */
 
 /* ************************************************************************* */
 
