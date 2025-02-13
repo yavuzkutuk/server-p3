@@ -2,11 +2,11 @@
   "name": "@js-monorepo/server",
   "scripts": {
     "check-types": "tsc --noEmit",
-    "dev": "tsx watch --clear-screen=false ./src/main",
+    "dev": "tsx watch --clear-screen=false ./api/index",
     "db:migrate": "tsx ./bin/migrate",
     "db:seed": "tsx ./bin/seed",
-    "build": "tsx ./bin/migrate && tsc ./api/main --outDir ../dist --esModuleInterop",
-    "start": "node ../dist/src/main",
+    "build": "tsx ./bin/migrate && tsc ./api/index --outDir ../dist --esModuleInterop",
+    "start": "node ../dist/api/index",
     "test": "jest --verbose"
   },
   "dependencies": {
