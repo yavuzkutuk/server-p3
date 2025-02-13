@@ -4,63 +4,63 @@ import jwt from "jsonwebtoken";
 import usersRepository from "../users/usersRepository";
 
 const SignIn: RequestHandler = async (req, res, next) => {
-  const { login } = req.body.values;
-  const { password } = req.body.values;
+	const { login } = req.body.values;
+	const { password } = req.body.values;
 
-  try {
-    // Fetch all items
-    const user: { token?: string } = await usersRepository.checkuser(
-      login,
-      password,
-    );
-    if (!process.env.APP_SECRET) {
-      throw new Error("APP_SECRET is not defined");
-    }
-    const token = jwt.sign({ login: login }, process.env.APP_SECRET, {
-      expiresIn: "2 days",
-    });
-    user.token = token;
-    // Respond with the items in JSON format
-    res.json(user);
-  } catch (err) {
-    // Pass any errors to the error-handling middleware
-    next(err);
-  }
+	try {
+		// Fetch all items
+		const user: { token?: string } = await usersRepository.checkuser(
+			login,
+			password,
+		);
+		if (!process.env.APP_SECRET) {
+			throw new Error("APP_SECRET is not defined");
+		}
+		const token = jwt.sign({ login: login }, process.env.APP_SECRET, {
+			expiresIn: "2 days",
+		});
+		user.token = token;
+		// Respond with the items in JSON format
+		res.json(user);
+	} catch (err) {
+		// Pass any errors to the error-handling middleware
+		next(err);
+	}
 };
 
 const SignUp: RequestHandler = async (req, res, next) => {
-  try {
-    // Fetch all items
-    const user = await usersRepository.readAll();
+	try {
+		// Fetch all items
+		const user = await usersRepository.readAll();
 
-    // Respond with the items in JSON format
-    res.json(user);
-  } catch (err) {
-    // Pass any errors to the error-handling middleware
-    next(err);
-  }
+		// Respond with the items in JSON format
+		res.json(user);
+	} catch (err) {
+		// Pass any errors to the error-handling middleware
+		next(err);
+	}
 };
 
 const Check: RequestHandler = async (req, res, next) => {
-  const token = req.headers.token as string;
+	const token = req.headers.token as string;
 
-  if (!token) {
-    res.status(401).send({ check: false });
-    return;
-  }
+	if (!token) {
+		res.status(401).send({ check: false });
+		return;
+	}
 
-  const appSecret = process.env.APP_SECRET;
-  if (!appSecret) {
-    res.status(500).send({ error: "APP_SECRET is not defined" });
-    return;
-  }
-  jwt.verify(token, appSecret, (error: jwt.VerifyErrors | null) => {
-    if (error) {
-      res.status(401).send({ check: false });
-      return;
-    }
-    next();
-  });
+	const appSecret = process.env.APP_SECRET;
+	if (!appSecret) {
+		res.status(500).send({ error: "APP_SECRET is not defined" });
+		return;
+	}
+	jwt.verify(token, appSecret, (error: jwt.VerifyErrors | null) => {
+		if (error) {
+			res.status(401).send({ check: false });
+			return;
+		}
+		next();
+	});
 };
 
 export default { SignIn, SignUp, Check };
