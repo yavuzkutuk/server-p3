@@ -1,5 +1,4 @@
 import express from "express";
-import type { RequestHandler } from "express";
 const router = express.Router();
 
 /* ************************************************************************* */
@@ -16,7 +15,7 @@ import userActions from "./modules/users/usersActions";
 import wineActions from "./modules/vin/wineActions"; */
 
 // biome-ignore lint/suspicious/noExplicitAny: <explanation>
-router.get("/api", async (req: any, res: any) => res.send("test"));
+router.get("/", async (req: any, res: any) => res.send("test"));
 /* router.get("/api/items", itemActions.browse);
 router.get("/api/items/:id", itemActions.read);
 router.post("/api/items", itemActions.add);
