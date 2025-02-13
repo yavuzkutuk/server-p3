@@ -83,7 +83,7 @@ import path from "node:path";
 if (fs.existsSync(publicFolderPath)) {
 	app.use(express.static(publicFolderPath));
 }
- */
+
 // Serve client resources
 
 /* const clientBuildPath = path.join(__dirname, "../../client/dist");
@@ -119,6 +119,5 @@ const logErrors: ErrorRequestHandler = (err, req, res, next) => {
 /* app.use(logErrors); */
 
 /* ************************************************************************* */
-
 
 export default app;
